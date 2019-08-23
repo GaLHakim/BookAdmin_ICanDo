@@ -1,0 +1,68 @@
+/* ---------------------------------------------------
+    TOP STYLE FONT
+----------------------------------------------------- */
+.Entry_Book {
+    font-family: 'Concert One', cursive;
+    color: rgb(99, 110, 114);
+    z-index: 45;
+}
+.Buku {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(99, 110, 114);
+    z-index: 44;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE FONT
+----------------------------------------------------- */
+#Dashboard {
+    font-family: 'Open Sans', sans-serif;
+}
+#Buku {
+    font-family: 'Open Sans', sans-serif;
+}
+#Logout-btn {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE FONT
+----------------------------------------------------- */
+.Tambah_Buku {
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(99, 110, 114);
+    line-height: 1.2;
+    z-index: 266;
+}
+.Simpan {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(242, 248, 250);
+    font-weight: bold;
+    line-height: 1.2;
+    z-index: 256;
+}
+.fontjudul{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(99, 110, 114);
+    line-height: 1.2;
+    z-index: 63;
+}
+.fontdescription{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(178, 190, 195);
+    line-height: 1.2;
+    z-index: 62;
+}
+.fontcount{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(178, 190, 195);
+    line-height: 1.2;
+    z-index: 182;
+  }
+  
+
+
+  
+  
+  
