@@ -45,26 +45,26 @@
         </div>
     </div>
     <!-- Modul Edit Judul-->
-    <div class="modal fade" id="exampleModalEditJudul" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    {{-- <div class="modal fade" id="exampleModalEditJudul" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header justify-content-center">
                 <h5 class="modal-title Tambah_Buku" id="exampleModalCenterTitle">Edit Judul</h5>
             </div>
             <div class="modal-body">
-                {{-- <form action="{{route('admin_update', $books->id)}}" method="POST">
+                <form action="{{route('admin_update', $books->id)}}" method="POST">
                     {{method_field("PUT")}}
                     <input type="text" name="book_name" class="form-control" id="usr" value="{{$books->book_name}}">
                     <br>
                     <input type="submit" class="btn btn-primary" value="Edit">
                     {{ csrf_field() }}
-                </form> --}}
+                </form>
             </div>
         </div>
     </div>
-    </div>
+    </div> --}}
     <!-- Modul Edit Description-->
-    <div class="modal fade" id="exampleModalEditDescrip" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    {{-- <div class="modal fade" id="exampleModalEditDescrip" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header justify-content-center">
@@ -81,17 +81,17 @@
                 @if(Session::has('success'))
                     <p class="alert alert-success">{{ Session::get('success') }}</p>
                 @endif
-                {{-- <form action="{{route('admin_update', $books->id)}}" method="POST">
+                <form action="{{route('admin_update', $books->id)}}" method="POST">
                     {{method_field("PUT")}}
                     <input type="text" name="description" class="form-control" id="usr" value="{{$books->book_description}}">
                     <br>
                     <input type="submit" class="btn btn-primary" value="Edit">
                     {{ csrf_field() }}
-                </form> --}}
+                </form>
             </div>
         </div>
     </div>
-    </div>
+    </div> --}}
 
     <form>
         <div class="input-group">
